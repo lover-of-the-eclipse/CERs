@@ -12,13 +12,55 @@
     align-items: center;
 }
 
+/* i'm going to fucking kill myself what the fuck is this */
+
 .menu-container {
-    background-color: rgb(0 0 0 / 25%);
-    outline: solid 3px  rgb(188 108 37 / 25%);
+    background-color: rgb(45 106 79 / 25%);
+    outline: solid 3px  rgb(8 28 21 / 45%);
     border-radius: 2px;
-    width: 600px;
-    height: 0
+    width: 620px;
+    height: 0;
+    display: grid;
+    grid-template-rows: 70px auto;
 }
+
+.button-wrapper{
+    padding: 10px
+}
+
+.button-container {
+    display: grid;
+    row-gap: 10px;
+    height: 100%;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+.claim-button  {
+    border-radius: 2px;
+    background-color: rgb(27 67 50 / 10%);
+    border: solid 3px  rgba(28, 132, 82, 0.45);
+    color: rgb(242, 245, 225);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* i stole all of this! pretty cool, right? */
 
 body {
         margin: auto;
@@ -89,3 +131,16 @@ body {
             transform: translateX(1);
         }
     }
+
+.title {
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline-block;
+    color: rgb(242, 245, 225);
+    opacity: 0%;
+    height: auto;
+    text-align: center
+}
